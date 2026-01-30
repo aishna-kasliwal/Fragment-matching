@@ -29,7 +29,7 @@
 - Reliability on small datasets
 - Research community acceptance
 
-## 📊 Results
+## Results
 
 Current performance on synthetic datasets:
 
@@ -86,7 +86,7 @@ healing-stones-mini/
 └── venv/                  # Python virtual environment
 ```
 
-## 🏃 Running the Pipeline
+##  Running the Pipeline
 
 ### Option 1: Run Complete Pipeline
 
