@@ -28,8 +28,8 @@ def main():
     o3d.io.write_triangle_mesh("data/fragments/frag1.obj", frag1)
     o3d.io.write_triangle_mesh("data/fragments/frag2.obj", frag2)
     
-    print(f"✅ Fragment 1 saved: {len(frag1.vertices)} vertices")
-    print(f"✅ Fragment 2 saved: {len(frag2.vertices)} vertices")
+    print(f"Fragment 1 saved: {len(frag1.vertices)} vertices")
+    print(f"Fragment 2 saved: {len(frag2.vertices)} vertices")
 
 if __name__ == "__main__":
     main()
