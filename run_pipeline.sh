@@ -1,12 +1,12 @@
 #!/bin/bash
 
-# Run the full Healing Stones fragment matching pipeline
+
 
 set -e
 
-echo "========================================="
-echo "Healing Stones Fragment Matching Pipeline"
-echo "========================================="
+
+echo "Fragment Matching Pipeline"
+
 echo ""
 
 # Ensure script is run from project root
@@ -43,9 +43,8 @@ echo "Step 6: Matching fragments and evaluating results"
 python src/match_and_evaluate.py
 echo ""
 
-echo "========================================="
+
 echo "Pipeline completed successfully"
-echo "========================================="
 echo ""
 
 echo "Results saved in: results/metrics.txt"
