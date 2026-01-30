@@ -21,8 +21,8 @@ def main():
     o3d.io.write_point_cloud("data/fragments/pcd1.ply", pcd1)
     o3d.io.write_point_cloud("data/fragments/pcd2.ply", pcd2)
     
-    print(f"✅ Point cloud 1: {len(pcd1.points)} points")
-    print(f"✅ Point cloud 2: {len(pcd2.points)} points")
+    print(f" Point cloud 1: {len(pcd1.points)} points")
+    print(f" Point cloud 2: {len(pcd2.points)} points")
 
 if __name__ == "__main__":
     main()
