@@ -45,15 +45,15 @@ def main():
     feat1 = extract_features(pcd1)
     feat2 = extract_features(pcd2)
     
-    print(f"✅ Fragment 1 features: {feat1}")
-    print(f"✅ Fragment 2 features: {feat2}")
+    print(f" Fragment 1 features: {feat1}")
+    print(f" Fragment 2 features: {feat2}")
     print(f"\nFeature difference (L1 distance): {np.abs(feat1 - feat2)}")
     print(f"Total difference: {np.abs(feat1 - feat2).sum():.4f}")
     
     # Save features for later use
     np.save("data/fragments/feat1.npy", feat1)
     np.save("data/fragments/feat2.npy", feat2)
-    print("\n✅ Features saved to .npy files")
+    print("\n Features saved to .npy files")
 
 if __name__ == "__main__":
     main()
