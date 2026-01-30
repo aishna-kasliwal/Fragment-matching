@@ -5,7 +5,7 @@
 set -e
 
 
-echo "Healing Stones Project Setup"
+echo "Project Setup"
 echo ""
 
 echo "[1/8] Checking prerequisites..."
