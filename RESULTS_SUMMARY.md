@@ -1,12 +1,6 @@
 # Fragment Matching Results Summary
 
-**Project**: Geometry-Based Matching of Fragmented 3D Objects  
-**Author**: Aishna Kasliwal  
-**Institution**: Indian Institute of Technology, Mandi  
-**Date**: January 2026  
-**Purpose**: GSoC 2025 Healing Stones Application
 
----
 
 ## Problem Statement
 
@@ -36,7 +30,7 @@ Developed a machine learning pipeline for automated fragment matching:
 ## Experimental Setup
 
 **Dataset**: Synthetically fragmented 3D objects
-- Object types: Cubes, spheres
+- Object types: Cubes
 - Fragmentation: Planar cuts with random orientations
 - Augmentation: Random 3D rotations (0° to 180°)
 - Training samples: ~70 pairs
@@ -77,62 +71,8 @@ Honestly reported constraints:
 3. **Classical Features**: Hand-crafted descriptors (deep learning could improve)
 4. **Small Scale**: Proof-of-concept, not production scale
 
-## Research Validity
 
-This approach follows standard computer vision methodology:
 
-✅ **Controlled Validation**: Synthetic data provides certain ground truth  
-✅ **Incremental Approach**: Validate method before real data  
-✅ **Honest Reporting**: Limitations explicitly acknowledged  
-✅ **Reproducible**: All code and parameters documented
 
-## Alignment with Healing Stones Project
 
-Direct correspondence to GSoC project tasks:
 
-| Healing Stones Task | Implementation Status |
-|---------------------|----------------------|
-| Search for surface matches | ✅ Geometric feature matching |
-| Handle orientation uncertainty | ✅ Random rotation robustness |
-| Work with .PLY/.OBJ files | ✅ Open3D pipeline |
-| 80%+ accuracy target | ✅ Achieved on synthetic data |
-| Python + ML experience | ✅ Demonstrated |
-
-## Future Extensions
-
-Planned improvements:
-
-1. **Real Data Testing**: Museum-provided cultural heritage scans
-2. **Deep Learning**: PointNet/DGCNN for learned features
-3. **ICP Alignment**: Precise pose estimation
-4. **Complex Fractures**: Irregular, non-planar breaks
-5. **Scale Testing**: Hundreds of fragments simultaneously
-
-## Technical Competencies Demonstrated
-
-✅ 3D geometry processing  
-✅ Point cloud operations  
-✅ Feature engineering  
-✅ Machine learning pipeline  
-✅ Proper evaluation methodology  
-✅ Linux environment management  
-✅ Research documentation
-
-## Conclusion
-
-This prototype validates the feasibility of ML-based fragment matching under orientation uncertainty. The controlled experiments demonstrate the approach works on synthetic data (75-85% accuracy), establishing a foundation for extension to real cultural heritage artifacts.
-
-**Next Step**: Apply to GSoC Healing Stones project to develop this into a production system for real archaeological applications.
-
----
-
-## Code & Documentation
-
-- **GitHub**: [Link to repository]
-- **Documentation**: README.md included
-- **Reproducibility**: Complete setup and run scripts provided
-
----
-
-**Contact**: aishnakasliwal.work@gmail.com  
-**LinkedIn**: [Your profile]
