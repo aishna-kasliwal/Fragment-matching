@@ -34,8 +34,8 @@ def main():
     o3d.io.write_triangle_mesh("data/fragments/frag1_rot.obj", frag1_rot)
     o3d.io.write_triangle_mesh("data/fragments/frag2_rot.obj", frag2_rot)
     
-    print(f"✅ Fragment 1 rotated by: {np.degrees(angles1)}")
-    print(f"✅ Fragment 2 rotated by: {np.degrees(angles2)}")
+    print(f" Fragment 1 rotated by: {np.degrees(angles1)}")
+    print(f" Fragment 2 rotated by: {np.degrees(angles2)}")
     print("   (angles in degrees around x, y, z axes)")
 
 if __name__ == "__main__":
