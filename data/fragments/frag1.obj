@@ -1,0 +1,14 @@
+# Created by Open3D 
+# object name: frag1
+# number of vertices: 4
+# number of triangles: 2
+v 0 1 0
+vn -0.57735 0.57735 -0.57735
+v 0 1 1
+vn -0.57735 0.57735 0.57735
+v 0 0 0
+vn -0.57735 -0.57735 -0.57735
+v 0 0 1
+vn -0.57735 -0.57735 0.57735
+f 3//3 4//4 1//1
+f 4//4 2//2 1//1
